@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+<servlet>
+     <servlet-name>CustRegistration</servlet-name>
+	  <servlet-class>CustRegister</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+		<servlet-name>CustRegistration</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	  </servlet-mapping>
+<servlet>
+   <servlet-name>AdminRegistration</servlet-name>
+   <servlet-class>AdminRegister</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AdminRegistration</servlet-name>
+	<url-pattern>/AdminReg</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>LoginCheck</servlet-name>
+   <servlet-class>LoginCheck</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>LoginCheck</servlet-name>
+	<url-pattern>/LoginCheck</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AdminCheck</servlet-name>
+   <servlet-class>AdminLogin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AdminCheck</servlet-name>
+	<url-pattern>/AdminLoginCheck</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>ServiceDetails</servlet-name>
+   <servlet-class>SaveServiceDetails</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ServiceDetails</servlet-name>
+	<url-pattern>/SaveService</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>UpdateDetails</servlet-name>
+   <servlet-class>UpdateServiceDetails</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UpdateDetails</servlet-name>
+	<url-pattern>/UpdateService</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>ValidateUser</servlet-name>
+   <servlet-class>CheckUser</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ValidateUser</servlet-name>
+	<url-pattern>/CheckUser</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>SaveUserLogin</servlet-name>
+   <servlet-class>CustLogin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>SaveUserLogin</servlet-name>
+	<url-pattern>/SaveUserLogin</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+   <servlet-name>CustomerCheck</servlet-name>
+   <servlet-class>CustomerLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CustomerCheck</servlet-name>
+	<url-pattern>/UserLogin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>Domain</servlet-name>
+   <servlet-class>DomainReg</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Domain</servlet-name>
+	<url-pattern>/DomainRegister</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>DomainFee</servlet-name>
+   <servlet-class>StoreDomainFee</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DomainFee</servlet-name>
+	<url-pattern>/StoreFee</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>DomainFeedBack</servlet-name>
+   <servlet-class>DomainFeedback</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DomainFeedBack</servlet-name>
+	<url-pattern>/DomainFeed</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>CheckDomain</servlet-name>
+   <servlet-class>CheckDomain</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>CheckDomain</servlet-name>
+	<url-pattern>/CheckDomain</url-pattern>
+</servlet-mapping>
+
+
+
+
+<servlet>
+   <servlet-name>FirstServlet</servlet-name>
+   <servlet-class>FirstServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>FirstServlet</servlet-name>
+	<url-pattern>/Test</url-pattern>
+</servlet-mapping>
+
+
+
+  <welcome-file-list>
+    <welcome-file>CMSHome.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

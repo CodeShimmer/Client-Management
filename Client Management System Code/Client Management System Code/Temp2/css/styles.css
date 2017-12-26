@@ -1,0 +1,11 @@
+body {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; background-color: #E5F3F5}
+.text {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #40637A}
+.title {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 17px; color: #40637A; font-weight: bold}
+.logo {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; color: #4DD6EC}
+.bottom {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #CFD8DE}
+a:link {  color: #57768A; text-decoration: underline}
+a:visited {  color: #57768A; text-decoration: underline}
+a:hover {  color: #333333; text-decoration: none}
+a.designby:link {  color: #999999; text-decoration: none}
+a.designby:visited {  color: #999999; text-decoration: none}
+a.designby:hover {  color: #339933; text-decoration: none}
